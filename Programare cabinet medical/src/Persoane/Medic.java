@@ -13,7 +13,7 @@ public class Medic extends Persoana {
     String statusMedic;
     List<Client> listaPacientiMedic = new ArrayList<>();
 
-    Medic (){
+     Medic (){
 
         this.nume = " ";
         this.varsta = 0;
@@ -21,7 +21,7 @@ public class Medic extends Persoana {
 
     }
 
-    Medic ( String numeMedic, int varstaMedic, String specialitateMedic){
+    public Medic ( String numeMedic, int varstaMedic, String specialitateMedic){
 
         this.nume = numeMedic;
         this.varsta = varstaMedic;
@@ -47,6 +47,12 @@ public class Medic extends Persoana {
 
     }
 
+    public int getNumarPacientiMedic(){
+
+         return listaPacientiMedic.size();
+
+    }
+
     public String getSpecialitateMedic(){
 
         return specialitateMedic;
@@ -56,6 +62,12 @@ public class Medic extends Persoana {
     public String toString(){
 
         return (nume + " " + specialitateMedic);
+
+    }
+
+    public int getVarsta(){
+
+         return varsta;
 
     }
 

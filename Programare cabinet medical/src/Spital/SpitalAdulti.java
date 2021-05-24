@@ -4,7 +4,7 @@ public class SpitalAdulti extends Spital{
 
     protected boolean personalCuRabdare;
 
-    SpitalAdulti(String numeSpital, String locatie, int locuriLibere, boolean personalCuRabdare){
+    public SpitalAdulti(String numeSpital, String locatie, int locuriLibere){
 
         this.numeSpital = numeSpital;
         this.locatie = locatie;

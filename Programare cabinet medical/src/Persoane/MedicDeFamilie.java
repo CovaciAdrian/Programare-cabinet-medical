@@ -16,7 +16,7 @@ public class MedicDeFamilie extends Medic{
 
     }
 
-    public int getfamiliiAtribuite(){
+    public int getFamiliiAtribuite(){
         return familiiAtribuite;
     }
 

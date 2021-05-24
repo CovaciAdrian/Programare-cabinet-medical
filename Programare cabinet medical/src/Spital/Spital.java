@@ -14,7 +14,7 @@ public class Spital {
 
     }
 
-    Spital( String numeSpital, String locatie, int locuriLibere){
+    public Spital( String numeSpital, String locatie, int locuriLibere){
 
         this.numeSpital = numeSpital;
         this.locatie = locatie;
